@@ -1,0 +1,20 @@
+print("hello, welcome to the joker roller coaster")
+age = int(input("what's your age?\n"))
+if age < 12:
+    photograph = input("do ou want take photo as memories? yes or no\n")
+    if photograph == "yes":
+      print("your total bill is $8")
+    else:
+     print("you have to pay $5")
+elif age <= 18:
+    photograph = input("do ou want take photo as memories? yes or no\n")
+    if photograph == "yes":
+      print("your total bill is $12")
+    else:
+     print("you have to pay 8$")
+elif age > 18:
+    photograph = input("do ou want take photo as memories? yes or no\n")
+    if photograph == "yes":
+     print("your final and total bill is $15")
+    else:
+      print("you have to pay $13") 
